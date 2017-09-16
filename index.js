@@ -9,11 +9,11 @@ console.log(chalk.gray('Enter ngsize --help for more information.\n'));
 const args = process.argv.slice(2)
 if (args.length > 0) {
     if (args.includes('-h') || args.includes('--help')) {
-        console.warn(`${chalk.red('Warn:')} You have to enter the angular build message:
-        Either pipe it in:
-        > ng build | ngsize
-        or pass it manually:
-        > ngsize "chunk {${chalk.yellow('main')}} ${chalk.green('main.bundle.js')} (main) 353 kB {${chalk.yellow('vendor')}}..."`);
+        console.warn(`You have to enter the angular build message:
+Either pipe it in:
+> ng build | ngsize
+or pass it manually:
+> ngsize "chunk {${chalk.yellow('main')}} ${chalk.green('main.bundle.js')} (main) 353 kB {${chalk.yellow('vendor')}}..."`);
     } else {
         processBundleOutput(args.join(' '));
     }
