@@ -1,9 +1,9 @@
 # ngsize
-You want to know your total bundle size, but your calculating skills are not good enough to sum up yourself?<br>
-You think the Angular CLI should totally print the total size?<br>
+You think the Angular CLI should totally print the total build size?<br>
+Your calculating skills are not good enough to sum it up yourself?<br>
 ngsize to the rescue.
 
-![image](https://user-images.githubusercontent.com/2671139/30515379-b6e66eda-9b26-11e7-899e-36c8ceb9d6ab.png)
+![image](https://user-images.githubusercontent.com/2671139/30515585-f4be476a-9b2a-11e7-8727-df68525eaf54.png)
 
 ## How to use
 ### Install
