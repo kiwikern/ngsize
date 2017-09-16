@@ -32,7 +32,7 @@ rl.on('close', () => processBundleOutput(input));
 
 function processBundleOutput(buildMessage) {
     console.log(buildMessage);
-    console.log(`Your bundle has a total size of ${chalk.cyan(getSize(buildMessage) + ' MB')}.`);
+    console.log(`Your build has a total size of ${chalk.cyan(getSize(buildMessage) + ' MB')}.`);
 }
 
 function getSize(input) {
