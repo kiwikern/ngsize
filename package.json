@@ -17,5 +17,14 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "figlet": "^1.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiwikern/ngsize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiwikern/ngsize/issues"
+  },
+  "homepage": "https://github.com/kiwikern/ngsize#readme"
 }
