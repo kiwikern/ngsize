@@ -1,0 +1,21 @@
+{
+  "name": "ngsize",
+  "version": "1.0.0",
+  "description": "Sums up the sizes of your Angular bundles and shows the total file size.",
+  "main": "index.js",
+  "bin": {
+    "ngsize": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Kim Kern <github@kimkern.de>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "figlet": "^1.2.0"
+  }
+}
