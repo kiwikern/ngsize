@@ -1,5 +1,8 @@
 # ngsize
-You want to know your total bundle size, but your calculating skills are not good enough to sum up yourself? You think the Angular CLI should totally print the total size? ngsize to the rescue.
+You want to know your total bundle size, but your calculating skills are not good enough to sum up yourself?<br>
+You think the Angular CLI should totally print the total size?<br>
+ngsize to the rescue.
+
 ![image](https://user-images.githubusercontent.com/2671139/30515379-b6e66eda-9b26-11e7-899e-36c8ceb9d6ab.png)
 
 ## How to use
