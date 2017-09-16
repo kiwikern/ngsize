@@ -1,6 +1,5 @@
 # ngsize
-Show the total size of your Angular bundle files.
-
+You want to know your total bundle size, but your calculating skills are not good enough to sum up yourself? You think the Angular CLI should totally print the total size? ngsize to the rescue.
 ![image](https://user-images.githubusercontent.com/2671139/30515379-b6e66eda-9b26-11e7-899e-36c8ceb9d6ab.png)
 
 ## How to use
@@ -30,7 +29,7 @@ If you have installed ngsize only locally, you need to use it within an npm run 
 "scripts": {
   "ng": "ng",
   "ngsize": "ngsize",
-  "build": "ng build | "ngsize"
+  "build": "ng build | ngsize"
 }
 ```
 
